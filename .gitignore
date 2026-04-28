@@ -1,7 +1,0 @@
-.env
-__pycache__
-cleaned_tiktok_google_play_reviews.csv
-cleaned_tiktok_google_play_reviews.json  
-removed_nulls.csv 
-sorted_by_date.csv 
-xcom_data_files/
