@@ -13,7 +13,7 @@ from airflow.providers.standard.sensors.filesystem import FileSensor
 from airflow.utils.task_group import TaskGroup
 
 BASE_DIR = Path(
-    "/opt/airflow"
+    __file__
 ).parent.parent  
 tiktok_google_play_reviews_filepath_csv = (
     BASE_DIR / "data_files" / "tiktok_google_play_reviews.csv"

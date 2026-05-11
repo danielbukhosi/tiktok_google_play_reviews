@@ -6,7 +6,7 @@ from pymongo import UpdateOne
 from airflow.providers.mongo.hooks.mongo import MongoHook
 from airflow.sdk.definitions.asset import Asset
 
-BASE_DIR = Path("/opt/airflow").parent.parent
+BASE_DIR = Path(__file__).parent.parent
 tiktok_google_play_reviews_filepath_csv = (
     BASE_DIR / "data_files" / "tiktok_google_play_reviews.csv"
 )
